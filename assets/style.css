@@ -1,0 +1,48 @@
+a {
+    color:black;
+}
+
+.navwidth {
+    width: 100%;
+}
+
+.container {
+    margin-left: 4%;
+    margin-top: 5%;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #d3d6da;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+    border-top: solid 4px;
+    margin-top: 50%;
+    background-color: darkgrey;
+    border-color: aquamarine;
+}
+
+@media only screen and (min-width: 1200px) {
+.container {
+    max-width: 995px;
+}
+}
+
+.navbar-brand {
+    background-color: aquamarine;
+    font-size: 175%;
+    color: white !important;
+    padding: 20px;
+}
+
+.pageLinks {
+    color: black;
+}
+
+#btn-color {
+    background-color: aquamarine !important;
+    border-color: aquamarine !important; 
+}
